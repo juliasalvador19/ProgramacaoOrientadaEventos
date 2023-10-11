@@ -1,0 +1,273 @@
+/* GERAL */
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* Centralizar Texto */
+
+.centraliza {
+    text-align: center;
+}
+
+/* Estilo - Home Header*/
+
+.home-logo {
+    background-color: #04233F;
+}
+
+.home-logo img {
+    width: 250px;
+    padding: 20px;
+}
+
+.home-menu-titulo {
+    margin-bottom: 20px;
+    color: white;
+    font-weight: 200;
+}
+
+/* Estilo - Home Menu */
+
+.home-menu {
+    background-color: #082946;
+    padding: 50px
+}
+
+.home-menu-opcao {
+    padding: 10px;
+    margin: 10px auto;
+    background-color: #008eb9;
+    border-radius: 5px;
+    color: white;
+    text-decoration: none;
+    display: block;
+    width: 150px;
+}
+
+.home-menu-opcao:hover {
+    background-color: white;
+    color: black;
+}
+
+/* Estilo - Home Footer */
+
+.home-rodape {
+    padding: 80px;
+    background-color: #02111f;
+    color: gray;
+    font-size: 13px;
+}
+
+/* ------------------------------------------------ */
+
+/* Estilo - Paciente Menu */
+
+.paciente-menu {
+    padding: 0 0 20px 0;
+}
+
+.paciente-menu-opcao {
+        padding: 10px;
+        margin: 10px auto;
+        background-color: #008eb9;
+        border-radius: 5px;
+        color: white;
+        text-decoration: none;
+        display: inline-block;
+        width: 150px;
+} 
+
+.paciente-menu-opcao:hover {
+        background-color: white;
+        color: black;
+}
+
+/* Estilo - Paciente Form */
+
+.paciente-forms {
+    background-color: #082946;
+    padding: 50px 0;
+    color: white;
+    width: 100%;
+}
+
+.paciente-titulo {
+    margin-bottom: 40px;
+}
+
+.paciente-forms label {
+    display: block;
+    width: 300px;
+    margin: auto;  
+    margin-bottom: 5px;
+    padding: 0;
+}
+
+.paciente-forms .paciente-dados {
+    display: block;
+    padding: 10px;
+    width: 280px;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.paciente-sexo{
+    display: block;
+    padding: 10px;
+    width: 306px;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.paciente-cadastrar {
+    width: 100px;
+    background-color: #008eb9;
+    color: white;
+    border-radius: 5px;
+    padding: 10px;
+    font-weight: 600;
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+}
+
+.paciente-cadastrar:hover {
+    background-color: white;
+    color: black;
+}
+
+/* -------------------------------------- */
+
+.consulta { 
+    margin: 0 10px;
+}
+
+.consulta-titulo {
+        margin: 40px 0;
+}
+
+/* dados paciente */
+
+
+.dados {
+    width: 100%;
+    background-color: #082946;
+    padding: 30px 30px;
+    color: white;
+}
+
+.atualizaDados {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #008eb9;
+    border-radius: 5px;
+    color: white;
+    text-decoration: none;
+    display: block;
+    width: 150px;
+}
+
+.atualizaDados:hover {
+    background-color: white;
+    color: black;
+}
+
+.atendePaciente {
+    padding: 10px;
+    background-color: #008eb9;
+    border-radius: 5px;
+    color: white;
+    text-decoration: none;
+    display: block;
+    width: 100px;
+    text-align: center;
+}
+
+.atendePaciente:hover {
+    background-color: black;
+    color: white;
+}
+
+.paginacao {
+    padding: 2px;
+    margin: 2px;
+    background-color: #008eb9;
+    border-radius: 5px;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+
+}
+
+.paginacao:hover {
+    background-color: black;
+    color: white;
+}
+
+.pacienteCadastrado {
+    color: green;
+    text-align: center;
+    padding-top: 15px
+}
+
+/*  */
+
+.historico-forms{
+    color: white;
+    width: 100%;
+}
+
+.historico-dados {
+    padding: 5px;
+    width: 150px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.historico-pesquisar {
+    margin-top: 20px;
+    padding: 7px;
+    background-color: #008eb9;
+    border-radius: 5px;
+    color: white;
+    text-decoration: none;
+    width: 100px;
+    text-align: center;
+}
+
+.historico-pesquisar:hover{
+    background-color: white;
+    color: black;
+}
+
+.historico {
+        margin: 0 10px;
+}
+
+.retornoHistorico {
+    text-align: center;
+    color: red;
+}
+
+.separador-alertas {
+    margin-bottom: 5px;
+    display: flex;
+}
+
+.alerta-ruim {
+    color: red;
+    display: flex;
+}
+
+.alerta-bom { 
+    color: green;
+    display: flex;  
+}
+
+#som {
+    width: 0px;
+    height: 0px;
+} 
