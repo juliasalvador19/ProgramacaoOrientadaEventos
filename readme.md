@@ -4,7 +4,7 @@
 - Julia Salvador & Mariana Dircksen
 
 ### Descrição
-O projeto possui conexão com o banco de dados, então é necessário fazer a importação do arquivo <u>.sql</u> para testes.
+O projeto possui conexão com o banco de dados, então é necessário fazer a importação do arquivo .sql para testes.
 
 ### Características
 
